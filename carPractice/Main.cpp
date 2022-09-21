@@ -45,5 +45,5 @@ int main()
 	car3.fuelQuantity; .90f;
 
 
-	void Print(Car toPrint);
+	std::cout << Print(Car toPrint);
 }
