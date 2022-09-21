@@ -5,10 +5,14 @@
 class Car
 {
 public:
+
+	//settings
 	std::string make;
 	std::string model;
 	int doors;
-	float mileage;
 	float mPG;
+
+	//states
+	float mileage;
 	float fuelQuantity;
 };
