@@ -10,5 +10,5 @@ public:
 	int doors;
 	float mileage;
 	float mPG;
-	std::string fuelType;
+	float fuelQuantity;
 };
