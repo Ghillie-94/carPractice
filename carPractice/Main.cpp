@@ -23,7 +23,7 @@ int main()
 	car1.doors = 5;
 	car1.mileage = 15000;
 	car1.mPG = 30;
-	car1.fuelQuantity = .75f;
+	car1.fuelQuantity = 50.0f;
 
 
 	Car car2;
@@ -33,7 +33,7 @@ int main()
 	car2.doors = 5;
 	car2.mileage = 68000;
 	car2.mPG = 55;
-	car2.fuelQuantity = 1.0f;
+	car2.fuelQuantity = 100.0f;
 
 	Car car3;
 
@@ -42,7 +42,7 @@ int main()
 	car3.doors = 3;
 	car3.mileage = 120000;
 	car3.mPG = 32;
-	car3.fuelQuantity = .90f;
+	car3.fuelQuantity = 15.0f;
 
 
 	car1.Print();
