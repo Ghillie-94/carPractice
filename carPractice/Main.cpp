@@ -7,11 +7,11 @@ void Print(Car toPrint)
 {
 	std::cout << "Car info:" << std::endl;
 	std::cout << "Make: " << toPrint.make << std::endl;
-	std::cout << "Model: " << toPrint.make << std::endl;
-	std::cout << "Doors: " << toPrint.make << std::endl;
-	std::cout << "Mileage: " << toPrint.make << std::endl;
-	std::cout << "MPG: " << toPrint.make << std::endl;
-	std::cout << "Quantity of fuel: " << toPrint.make << std::endl;
+	std::cout << "Model: " << toPrint.model << std::endl;
+	std::cout << "Doors: " << toPrint.doors << std::endl;
+	std::cout << "Mileage: " << toPrint.mileage << std::endl;
+	std::cout << "MPG: " << toPrint.mPG << std::endl;
+	std::cout << "Quantity of fuel: " << toPrint.fuelQuantity << std::endl;
 }
 
 int main()
