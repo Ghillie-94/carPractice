@@ -11,3 +11,10 @@ void Car::Print()
 	std::cout << "MPG: " << mPG << std::endl;
 	std::cout << "Quantity of fuel: " << fuelQuantity << std::endl;
 }
+
+void Car::Drive(float milesTravelled)
+{
+	mileage += milesTravelled;
+	float fuelUsed = milesTravelled / mPG;
+	fuelQuantity -= fuelUsed;
+}

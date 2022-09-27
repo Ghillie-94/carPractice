@@ -17,5 +17,6 @@ public:
 	float fuelQuantity;
 
 	void Print();
+	void Drive(float milesTravelled);
 	
 };

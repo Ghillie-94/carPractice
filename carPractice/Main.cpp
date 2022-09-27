@@ -48,4 +48,6 @@ int main()
 	car1.Print();
 	car2.Print();
 	car3.Print();
+	car1.Drive(10);
+	car1.Print();
 }
