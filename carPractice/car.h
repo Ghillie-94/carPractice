@@ -15,4 +15,7 @@ public:
 	//states
 	float mileage;
 	float fuelQuantity;
+
+	void Print();
+	
 };

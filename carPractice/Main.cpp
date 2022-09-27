@@ -3,7 +3,7 @@
 #include "car.h"
 
 
-void Print(Car toPrint)
+/*void Print(Car toPrint)
 {
 	std::cout << "Car info:" << std::endl;
 	std::cout << "Make: " << toPrint.make << std::endl;
@@ -12,7 +12,7 @@ void Print(Car toPrint)
 	std::cout << "Mileage: " << toPrint.mileage << std::endl;
 	std::cout << "MPG: " << toPrint.mPG << std::endl;
 	std::cout << "Quantity of fuel: " << toPrint.fuelQuantity << std::endl;
-}
+}*/
 
 int main()
 {
@@ -45,7 +45,7 @@ int main()
 	car3.fuelQuantity = .90f;
 
 
-	Print(car1);
-	Print(car2);
-	Print(car3);
+	car1.Print();
+	car2.Print();
+	car3.Print();
 }
