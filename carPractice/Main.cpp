@@ -44,10 +44,13 @@ int main()
 	car3.mPG = 32;
 	car3.fuelQuantity = 15.0f;
 
+	Car car4;
+
 
 	car1.Print();
 	car2.Print();
 	car3.Print();
 	car1.Drive(10);
 	car1.Print();
+	car4.Print();
 }

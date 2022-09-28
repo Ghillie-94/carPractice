@@ -6,6 +6,8 @@ class Car
 {
 public:
 
+	Car();
+	
 	//settings
 	std::string make;
 	std::string model;

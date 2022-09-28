@@ -1,6 +1,17 @@
 #include "car.h"
 #include <iostream>
 
+Car::Car()
+	: make("")
+	, model("")
+	, doors(0)
+	, mileage(0)
+	, mPG(0)
+	, fuelQuantity(0)
+{
+	std::cout << "Car constructed!" << std::endl;
+}
+
 void Car::Print()
 {
 	std::cout << "Car info:" << std::endl;
