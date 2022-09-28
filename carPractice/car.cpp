@@ -12,6 +12,17 @@ Car::Car()
 	std::cout << "Car constructed!" << std::endl;
 }
 
+Car::Car(std::string newMake, std::string newModel, int newDoors, float newMPG, float newMileage, float newFuelQuantity)
+	:	make(newMake)
+	,	model(newModel)
+	,	doors(newDoors)
+	,	mPG(newMPG)
+	,	mileage(newMileage)
+	,	fuelQuantity(newFuelQuantity)
+{
+	std::cout << "car constructed using parameters!" << std::endl;
+}
+
 void Car::Print()
 {
 	std::cout << "Car info:" << std::endl;
