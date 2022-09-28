@@ -8,6 +8,7 @@ public:
 
 	Car();
 	Car(std::string newMake, std::string newModel, int newDoors, float newMPG, float newMileage, float newFuelQuantity);
+	~Car();
 	
 	//settings
 	std::string make;
