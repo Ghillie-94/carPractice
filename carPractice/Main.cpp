@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "car.h"
 
 
@@ -46,13 +47,23 @@ int main()
 
 	Car car4;
 
+	std::vector<Car> carVector;
+	carVector.push_back(car1);
+	carVector.push_back(car2);
+	carVector.push_back(car3);
 
 
 
-	car1.Print();
+
+	/*car1.Print();
 	car2.Print();
 	car3.Print();
 	car1.Drive(10);
 	car1.Print();
-	car4.Print();
+	car4.Print();*/
+
+	for (int i = 0; i < carVector.size(); ++i)
+	{
+		carVector[i].Print();
+	}
 }
