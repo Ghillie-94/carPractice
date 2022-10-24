@@ -3,6 +3,7 @@
 #include <vector>
 #include <map>
 #include "car.h"
+#include "ParkingSpace.h"
 
 
 /*void Print(Car toPrint)
@@ -56,6 +57,10 @@ int main()
 	carVector.push_back(car2);
 	carVector.push_back(car3);
 
+	ParkingSpace carPark1;
+
+	carPark1.Park(car1);
+
 	std::map<std::string, Car> carMap;
 	carMap["1234"] = car1;
 	carMap["5678"] = car2;
@@ -67,6 +72,8 @@ int main()
 	std::cin >> userInput;
 
 	carMap[userInput].Print();
+
+	
 
 
 
