@@ -30,6 +30,16 @@ Car::~Car()
 	std::cout << make << " " << model << " Destroyed!" << std::endl;
 }
 
+void Car::doCarLookup(std::string serial, Car car)
+{
+}
+
+Car Car::getCarLookup(std::string serial)
+{
+	return carLookup[serial];
+}
+
+
 
 
 void Car::Print()
