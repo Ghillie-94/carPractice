@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 #include "car.h"
 
 
@@ -25,6 +26,7 @@ int main()
 	car1.mileage = 15000;
 	car1.mPG = 30;
 	car1.fuelQuantity = 50.0f;
+	car1.serialNum = "1234";
 
 
 	Car car2;
@@ -35,6 +37,7 @@ int main()
 	car2.mileage = 68000;
 	car2.mPG = 55;
 	car2.fuelQuantity = 100.0f;
+	car2.serialNum = "5678";
 
 	Car car3;
 
@@ -44,6 +47,7 @@ int main()
 	car3.mileage = 120000;
 	car3.mPG = 32;
 	car3.fuelQuantity = 15.0f;
+	car3.serialNum = "9999";
 
 	Car car4;
 
@@ -52,6 +56,10 @@ int main()
 	carVector.push_back(car2);
 	carVector.push_back(car3);
 
+	std::map<Car, std::string> carMap;
+	carMap[car1] = "1234";
+	carMap[car2] = "5678";
+	carMap[car3] = "9999";
 
 
 
@@ -62,8 +70,8 @@ int main()
 	car1.Print();
 	car4.Print();*/
 
-	for (int i = 0; i < carVector.size(); ++i)
+	/*for (int i = 0; i < carVector.size(); ++i)
 	{
 		carVector[i].Print();
-	}
+	}*/
 }
