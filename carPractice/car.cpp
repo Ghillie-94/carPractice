@@ -4,6 +4,7 @@
 Car::Car()
 	: make("")
 	, model("")
+	, serialNum("")
 	, doors(0)
 	, mileage(0)
 	, mPG(0)
@@ -12,13 +13,14 @@ Car::Car()
 	std::cout << "Car constructed!" << std::endl;
 }
 
-Car::Car(std::string newMake, std::string newModel, int newDoors, float newMPG, float newMileage, float newFuelQuantity)
+Car::Car(std::string newMake, std::string newModel, std::string newSerialNum, int newDoors, float newMPG, float newMileage, float newFuelQuantity)
 	:	make(newMake)
 	,	model(newModel)
 	,	doors(newDoors)
 	,	mPG(newMPG)
 	,	mileage(newMileage)
 	,	fuelQuantity(newFuelQuantity)
+	,	serialNum("")
 {
 	std::cout << "car constructed using parameters!" << std::endl;
 }
@@ -39,6 +41,7 @@ void Car::Print()
 	std::cout << "Mileage: " << mileage << std::endl;
 	std::cout << "MPG: " << mPG << std::endl;
 	std::cout << "Quantity of fuel: " << fuelQuantity << std::endl;
+	std::cout << "Serial Number: " << serialNum << std::endl;
 }
 
 void Car::Drive(float milesTravelled)
