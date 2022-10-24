@@ -66,7 +66,7 @@ int main()
 	std::string userInput;
 	std::cin >> userInput;
 
-	std::cout << carMap[userInput].Print();
+	carMap[userInput].Print();
 
 
 
