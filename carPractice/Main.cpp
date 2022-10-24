@@ -56,10 +56,17 @@ int main()
 	carVector.push_back(car2);
 	carVector.push_back(car3);
 
-	std::map<Car, std::string> carMap;
-	carMap[car1] = "1234";
-	carMap[car2] = "5678";
-	carMap[car3] = "9999";
+	std::map<std::string, Car> carMap;
+	carMap["1234"] = car1;
+	carMap["5678"] = car2;
+	carMap["9999"] = car3;
+
+	std::cout << "Please enter the serial number of the vehicle you are looking for: " << std::endl;
+
+	std::string userInput;
+	std::cin >> userInput;
+
+	std::cout << carMap[userInput].Print();
 
 
 
