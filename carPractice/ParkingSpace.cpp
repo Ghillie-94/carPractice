@@ -28,6 +28,6 @@ void ParkingSpace::Print()
 	if (isParked) 
 	{
 		std::cout << "There is a vehicle parked in this space." << std::endl;
-		std::cout << "The vehicle parked in this space is " <<  << std::endl;
+		std::cout << "The vehicle parked in this space is " << parkedCar << std::endl;
 	}
 }
