@@ -59,19 +59,23 @@ int main()
 
 	ParkingSpace carPark1;
 
-	carPark1.Park(car1);
+	
 
 	std::map<std::string, Car> carMap;
 	carMap["1234"] = car1;
 	carMap["5678"] = car2;
 	carMap["9999"] = car3;
 
-	std::cout << "Please enter the serial number of the vehicle you are looking for: " << std::endl;
+	/*std::cout << "Please enter the serial number of the vehicle you are looking for: " << std::endl;
 
 	std::string userInput;
 	std::cin >> userInput;
 
-	carMap[userInput].Print();
+	carMap[userInput].Print(); */
+
+	carPark1.Park(car1);
+
+	carPark1.Print();
 
 	
 

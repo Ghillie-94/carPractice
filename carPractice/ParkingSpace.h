@@ -13,7 +13,7 @@ public:
 	Car parkedCar;
 	bool isParked;
 
-	void Park(Car);
+	void Park(Car newParkedCar);
 	void Exit();
 	void Print();
 
