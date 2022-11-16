@@ -2,6 +2,7 @@
 
 #include <string>
 #include <map>
+#include <iostream>
 
 class Car
 {
@@ -12,7 +13,18 @@ public:
 	~Car();
 	void doCarLookup(std::string serial, Car car);
 	Car getCarLookup(std::string serial);
+	void Print();
+	void Drive(float milesTravelled);
+	std::string GetMake();
+	std::string GetModel();
+	std::string GetSerialNum();
+	int GetDoors();
+	float GetMPG();
+	float GetMileage();
+	float GetFuelQuantity();
+
 	
+private:
 	//settings
 	std::string make;
 	std::string model;
@@ -25,7 +37,6 @@ public:
 	float mileage;
 	float fuelQuantity;
 
-	void Print();
-	void Drive(float milesTravelled);
+	
 	
 };

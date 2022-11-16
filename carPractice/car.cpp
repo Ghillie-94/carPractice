@@ -60,3 +60,40 @@ void Car::Drive(float milesTravelled)
 	float fuelUsed = milesTravelled / mPG;
 	fuelQuantity -= fuelUsed;
 }
+
+std::string Car::GetMake()
+{
+	return make;
+}
+
+std::string Car::GetModel()
+{
+	return model;
+}
+
+std::string Car::GetSerialNum()
+{
+	return serialNum;
+}
+
+int Car::GetDoors()
+{
+	return doors;
+}
+
+float Car::GetMPG()
+{
+	return mPG;
+}
+
+float Car::GetMileage()
+{
+	return mileage;
+}
+
+float Car::GetFuelQuantity()
+{
+	return fuelQuantity;
+}
+
+

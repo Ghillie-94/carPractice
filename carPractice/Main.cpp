@@ -19,36 +19,12 @@
 
 int main()
 {
-	Car car1;
+	Car car1("Mercedes benz", "C63 AMG", "1234",5, 30, 15000, 50.0);
 
-	car1.make = "Mercedes Benz";
-	car1.model = "C63 AMG";
-	car1.doors = 5;
-	car1.mileage = 15000;
-	car1.mPG = 30;
-	car1.fuelQuantity = 50.0f;
-	car1.serialNum = "1234";
+	Car car2("Kia", "Ceed", "5678", 5, 55, 68000, 100.0);
 
+	Car car3("Volkswagen", "Golf GTI","9999", 3, 32, 120000, 15.0);
 
-	Car car2;
-
-	car2.make = "Kia";
-	car2.model = "Ceed";
-	car2.doors = 5;
-	car2.mileage = 68000;
-	car2.mPG = 55;
-	car2.fuelQuantity = 100.0f;
-	car2.serialNum = "5678";
-
-	Car car3;
-
-	car3.make = "Volkswagen";
-	car3.model = "Golf GTI";
-	car3.doors = 3;
-	car3.mileage = 120000;
-	car3.mPG = 32;
-	car3.fuelQuantity = 15.0f;
-	car3.serialNum = "9999";
 
 	Car car4;
 
