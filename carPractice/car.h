@@ -3,8 +3,9 @@
 #include <string>
 #include <map>
 #include <iostream>
+#include "Vehicle.h"
 
-class Car
+class Car : public Vehicle
 {
 public:
 
