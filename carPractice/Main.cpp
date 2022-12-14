@@ -53,6 +53,10 @@ int main()
 
 	carPark1.Print();
 
+	carPark1.Exit();
+
+	carPark1.Print();
+
 	
 
 
