@@ -12,6 +12,7 @@ public:
 	Car();
 	Car(std::string newMake, std::string newModel, std::string serialNum, int newDoors, float newMPG, float newMileage, float newFuelQuantity);
 	~Car();
+	/*moved to vehicle.h
 	void doCarLookup(std::string serial, Car car);
 	Car getCarLookup(std::string serial);
 	void Print();
@@ -22,7 +23,7 @@ public:
 	int GetDoors();
 	float GetMPG();
 	float GetMileage();
-	float GetFuelQuantity();
+	float GetFuelQuantity(); 
 
 	
 private:
@@ -36,7 +37,7 @@ private:
 
 	//states
 	float mileage;
-	float fuelQuantity;
+	float fuelQuantity; */
 
 	
 	

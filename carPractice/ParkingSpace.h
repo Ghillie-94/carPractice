@@ -2,6 +2,7 @@
 
 #include <string>
 #include "car.h"
+#include "Vehicle.h"
 
 
 class ParkingSpace
